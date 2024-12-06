@@ -1,13 +1,13 @@
 import { UserButton } from '@clerk/nextjs'
 import React from 'react'
+import Listing from './_components/Listing'
 
-const page = () => {
+const Dashboard = () => {
   return (
     <div>
-      Dahboard 
-     <UserButton/>
+        <Listing/>
     </div>
   )
 }
 
-export default page
+export default Dashboard
